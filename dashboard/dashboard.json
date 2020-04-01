@@ -1,0 +1,268 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1585144735346,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "70ce987c-ddbc-49b2-a89e-059573a4b839",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Internet Usage",
+      "rank": 125,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "018e2783-5a7e-47ab-837e-656c6277b48f",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9130-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "scripts|Upload",
+                        "metricName": "Scripts|Upload",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002008APPOSUCPexecutescript",
+                        "resourceName": "Custom Script",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15530-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "scripts|Download",
+                        "metricName": "Scripts|Download",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002008APPOSUCPexecutescript",
+                        "resourceName": "Custom Script",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel1654-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "scripts|Ping",
+                        "metricName": "Scripts|Ping",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:0_::_",
+                        "resourceKindId": "002008APPOSUCPexecutescript",
+                        "resourceName": "Custom Script",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ]
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Usage",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 14,
+               "w": 10,
+               "x": 3,
+               "y": 1
+            },
+            "height": 780,
+            "id": "c424891c-1f74-4d99-a2c3-030b124579ee",
+            "title": "Usage",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31274-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "response_code",
+                        "metricName": "Response Code",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:1_::_",
+                        "resourceKindId": "002008APPOSUCPhttpresponse",
+                        "resourceName": "Status",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31274-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "response_time",
+                        "metricName": "Response Time",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:1_::_",
+                        "resourceKindId": "002008APPOSUCPhttpresponse",
+                        "resourceName": "Status",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31274-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "availability",
+                        "metricName": "Availability",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceId": "resource:id:1_::_",
+                        "resourceKindId": "002008APPOSUCPhttpresponse",
+                        "resourceName": "Status",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ]
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last6Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Status",
+               "valueSize": 24,
+               "visualTheme": 1
+            },
+            "gridsterCoords": {
+               "h": 14,
+               "w": 2,
+               "x": 1,
+               "y": 1
+            },
+            "height": 780,
+            "id": "7af8e868-72cc-47e4-9810-2696e469e3c7",
+            "title": "Status",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resource": [
+      {
+         "adapterKindKey": "APPOSUCP",
+         "identifiers": [
+            {
+               "key": "VCID",
+               "value": "ec20aaf1-fc01-45cf-a2e1-51fa696ce4a9"
+            },
+            {
+               "key": "VMMOR",
+               "value": "vm-326"
+            }
+         ],
+         "internalId": "resource:id:0_::_",
+         "name": "Custom Script",
+         "resourceKindKey": "executescript"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "identifiers": [
+            {
+               "key": "ADDRESS",
+               "value": "http://www.google.com:80"
+            },
+            {
+               "key": "METHOD",
+               "value": "GET"
+            },
+            {
+               "key": "VCID",
+               "value": "ec20aaf1-fc01-45cf-a2e1-51fa696ce4a9"
+            },
+            {
+               "key": "VMMOR",
+               "value": "vm-326"
+            }
+         ],
+         "internalId": "resource:id:1_::_",
+         "name": "Status",
+         "resourceKindKey": "httpresponse"
+      }
+   ]},
+   "uuid": "3fb42cf4-ffff-42c4-b43b-2f5c5505a388"
+}
